@@ -1,5 +1,11 @@
 package com.careerit.cbook.dao;
 
-public class ContactDAO {
+import java.util.List;
 
+import com.careerit.cbook.domain.Contact;
+
+public interface ContactDAO {
+
+	List<Contact> findAllContacts();
+	
 }
