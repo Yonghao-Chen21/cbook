@@ -14,4 +14,5 @@ public class Contact {
 	private String email;
 	private Date dob;
 	private String mobile;
+	private Long uid;
 }
